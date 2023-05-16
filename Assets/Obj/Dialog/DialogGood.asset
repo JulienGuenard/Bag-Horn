@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe65e5eb7fa2cf5409ceee294fd23df4, type: 3}
+  m_Name: DialogGood
+  m_EditorClassIdentifier: 
+  messageList:
+  - text: "Oh oh ! Tu as bien conserv\xE9 mon nez mon gar\xE7on, je suis fier de
+      toi !"
+    character: {fileID: 11400000, guid: 808131c0e71c5de4994b2676ad975559, type: 2}
+    orientation: 0
+  - text: "T'as vu grosse patate, t'as pas int\xE9r\xE9 \xE0 ce qu'il g\xE8le."
+    character: {fileID: 11400000, guid: 57660d1b6d41afa4aa8ce7b0e0a97b99, type: 2}
+    orientation: 1
+  - text: "Oh euh, oui mon gar\xE7on, je vais essayer, toi aussi prend bien soin
+      de ton nez il fait froid, enfin, je ne ressent pas le froid, mais \xE7a a l'air
+      vraiment frigorifique ici."
+    character: {fileID: 11400000, guid: 808131c0e71c5de4994b2676ad975559, type: 2}
+    orientation: 0
+  - text: "Ou\xE9 allez, j'ai du travail, je dois te constituer une troisi\xE8me
+      boule de neige pour que tu deviennes un g\xE9ant."
+    character: {fileID: 11400000, guid: 57660d1b6d41afa4aa8ce7b0e0a97b99, type: 2}
+    orientation: 1
+  - text: "Un... un g\xE9ant? Moi !? Mais enfin mon gar\xE7on, je ne serais plus
+      transpor..."
+    character: {fileID: 11400000, guid: 808131c0e71c5de4994b2676ad975559, type: 2}
+    orientation: 0
+  - text: "Discute pas sac \xE0 flocons !"
+    character: {fileID: 11400000, guid: 57660d1b6d41afa4aa8ce7b0e0a97b99, type: 2}
+    orientation: 1

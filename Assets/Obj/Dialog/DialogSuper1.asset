@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe65e5eb7fa2cf5409ceee294fd23df4, type: 3}
+  m_Name: DialogSuper1
+  m_EditorClassIdentifier: 
+  messageList:
+  - text: "Oluf, je me fiche de mourir de faim, tu es mon ami pour toujours, alors
+      je veux \xE0 tout prix que tu prennes toutes tes affaires !"
+    character: {fileID: 11400000, guid: 57660d1b6d41afa4aa8ce7b0e0a97b99, type: 2}
+    orientation: 1
+  - text: Mais enfin mon petit, qu'est-ce que tu vas manger, comment tu vas t'y retrouver?
+    character: {fileID: 11400000, guid: 808131c0e71c5de4994b2676ad975559, type: 2}
+    orientation: 0
+  - text: "Je m'en fiche ! T'es rigolo avec ton haut-de-forme, et si je peux parcourir
+      la for\xEAt avec toi dans mon coeur, ce sera plus fort que n'importe quel objet
+      !"
+    character: {fileID: 11400000, guid: 57660d1b6d41afa4aa8ce7b0e0a97b99, type: 2}
+    orientation: 1
+  - text: "Tr\xE8s bien, dans ce cas mon gar\xE7on, je me sent flatt\xE9 et honor\xE9,
+      je t'accompagnerais par del\xE0 toutes cette neige tant que je le peux, en
+      avant !"
+    character: {fileID: 11400000, guid: 808131c0e71c5de4994b2676ad975559, type: 2}
+    orientation: 0

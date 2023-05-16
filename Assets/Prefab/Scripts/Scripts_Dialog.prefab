@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6621145787965336979
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6621145787965336977}
+  - component: {fileID: 6621145787965336978}
+  - component: {fileID: 255525282}
+  m_Layer: 0
+  m_Name: Scripts_Dialog
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6621145787965336977
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6621145787965336979}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.1962755, y: -1.5363135, z: 0.05742246}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6621145787965336978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6621145787965336979}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 181ad45fe1cf1c44fa484481147cd4aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  squareMouseHover: {r: 1, g: 0.74827754, b: 0.27735847, a: 1}
+  squareMouseNeutral: {r: 1, g: 1, b: 1, a: 1}
+  squareMouseSelected: {r: 0.38828754, g: 1, b: 0.2396226, a: 1}
+  bagMouseHover: {r: 1, g: 1, b: 1, a: 0.30588236}
+  bagMouseNeutral: {r: 1, g: 1, b: 1, a: 1}
+  dialogButtonSuiteNeutral: {r: 0.43137255, g: 0.6039216, b: 0.40784314, a: 1}
+  dialogButtonSuiteHover: {r: 0.7924528, g: 0.7878198, b: 0.42912066, a: 1}
+--- !u!114 &255525282
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6621145787965336979}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1cca05964a1c1f4ab0cd359b21d73aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonSuite: {fileID: 0}
+  dialogChosen: {fileID: 11400000, guid: 40e81aa88ade62944a8be3bece66ebbf, type: 2}
+  dialogText: {fileID: 0}
+  dialogBox: {fileID: 0}
+  dialogPanel: {fileID: 0}
+  rightPos: {x: 2, y: -3.25, z: 0}
+  leftPos: {x: -2.75, y: -3.25, z: 0}
+  endScene: Level Selection
