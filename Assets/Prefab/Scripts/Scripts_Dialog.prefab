@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6621145787965336977}
   - component: {fileID: 6621145787965336978}
   - component: {fileID: 255525282}
+  - component: {fileID: 6621145788481869937}
   m_Layer: 0
   m_Name: Scripts_Dialog
   m_TagString: Untagged
@@ -72,3 +73,23 @@ MonoBehaviour:
   rightPos: {x: 2, y: -3.25, z: 0}
   leftPos: {x: -2.75, y: -3.25, z: 0}
   endScene: Level Selection
+--- !u!114 &6621145788481869937
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6621145787965336979}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d49ecb6525b3d574b94a78e4287ef16f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogScene_Bad: 
+  dialogScene_Good: 
+  dialogScene_Super1: 
+  dialogScene_Super2: 
+  selectionLevelScene: Level Selection
+  validateBtn: {fileID: 0}
+  resetBtn: {fileID: 0}
+  returnToMenuBtn: {fileID: 0}

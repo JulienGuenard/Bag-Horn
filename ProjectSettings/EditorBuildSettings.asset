@@ -6,24 +6,24 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Title.unity
+    path: Assets/Scenes/Menu/Title.unity
     guid: 82c0269dffabd1a40b63cf8afdbe2bac
   - enabled: 1
-    path: Assets/Scenes/Level Selection.unity
+    path: Assets/Scenes/Menu/Level Selection.unity
     guid: 0156c0d29c768304f971c89b9da1d865
   - enabled: 1
-    path: Assets/Scenes/1- Olaf & Nathan.unity
+    path: Assets/Scenes/1- Olaf & Nathan/1- Olaf & Nathan.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/1- DialogGood.unity
+    path: Assets/Scenes/1- Olaf & Nathan/1- DialogGood.unity
     guid: d04ecbba699b13a408216e21a855f7dd
   - enabled: 1
-    path: Assets/Scenes/1- DialogSuper1.unity
+    path: Assets/Scenes/1- Olaf & Nathan/1- DialogSuper1.unity
     guid: 653ce73e1e3abc949817a186aeeaa05e
   - enabled: 1
-    path: Assets/Scenes/1- DialogSuper2.unity
+    path: Assets/Scenes/1- Olaf & Nathan/1- DialogSuper2.unity
     guid: eb753001f298492488327d1515c87883
   - enabled: 1
-    path: Assets/Scenes/1- DialogBad.unity
+    path: Assets/Scenes/1- Olaf & Nathan/1- DialogBad.unity
     guid: 929c9b8556a706b40ad32589af645bd3
   m_configObjects: {}
