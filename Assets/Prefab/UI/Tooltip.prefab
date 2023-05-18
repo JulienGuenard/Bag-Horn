@@ -100,8 +100,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "<b>Carotte</b><br>Bonne \xE0 grignoter en toute circonstance, permet aux
-    visages enneig\xE9s de respirer."
+  m_text: "<b>Carotte</b>\r\nBonne \xE0 grignoter en toute circonstance, permet aux
+    visages enneig\xE9s de respirer.\r\n<size=2.5><b>\r\n<color=#00ff00>Respiration
+    (++)</color>\r\n<color=#ffff00>Peu nutritif (+)</color>\r\n</size></b>"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -128,8 +129,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 3.5
-  m_fontSizeBase: 3.5
+  m_fontSize: 3.3
+  m_fontSizeBase: 3.3
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -183,6 +184,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4172297955972692766}
   - component: {fileID: 4172297955972692765}
+  - component: {fileID: 4172297955673345015}
   m_Layer: 0
   m_Name: Tooltip
   m_TagString: Untagged
@@ -219,7 +221,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tooltipPanel: {fileID: 4172297957351681314}
-  textMesh: {fileID: 0}
+  textMesh: {fileID: 772744274776554624}
+--- !u!95 &4172297955673345015
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4172297955972692764}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 197fa850b3fd75140b6f490616bd6247, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &4172297957351681319
 GameObject:
   m_ObjectHideFlags: 0
@@ -245,7 +267,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4172297957351681319}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.6, y: 1.5028, z: 0}
+  m_LocalPosition: {x: 0.6, y: 1.5, z: 0}
   m_LocalScale: {x: 1, y: 1.6057, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:

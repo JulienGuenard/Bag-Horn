@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-public class TooltipLevel : MonoBehaviour
+public class TooltipButton : MonoBehaviour
 {
-    static public TooltipLevel instance;
+    static public TooltipButton instance;
 
     public Transform tooltipPanel;
     public TextMeshPro textMesh;
@@ -15,7 +15,7 @@ public class TooltipLevel : MonoBehaviour
         if (instance == null) instance = this;
     }
 
-    public void ShowTooltip(GameObject button)
+    public void ShowTooltip(GameObject button, string text)
     {
 
         Vector3 newPos = button.transform.position;
@@ -40,7 +40,7 @@ public class TooltipLevel : MonoBehaviour
 
         tooltipPanel.localPosition = new Vector3 (newRectPos.x, tooltipPanel.localPosition.y, 0);
 
-        textMesh.text = "<b>Oluf le bonhomme de neige</b><br>Rangez les affaires de Oluf le bonhomme de neige, et de Nathan son fidèle constructeur.";
+        textMesh.text = text;
     }
 
     public void HideTooltip()

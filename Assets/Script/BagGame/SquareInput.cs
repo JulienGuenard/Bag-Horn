@@ -10,7 +10,6 @@ public class SquareInput : MonoBehaviour
 
     [Header("States")]
     bool isHovered = false;
-    bool isClicked = false;
     public bool isSelected = false;
 
     [Header("Item")]

@@ -13,11 +13,14 @@ public class SquareManager : MonoBehaviour
         if (instance == null) instance = this;
     }
 
-    private void Start()
+    private void Update()
     {
-        foreach(SquareInput obj in GameObject.FindObjectsOfType<SquareInput>())
+        if (listSquare.Count == 0)
         {
-            listSquare.Add(obj);
+            foreach (SquareInput obj in GameObject.FindObjectsOfType<SquareInput>())
+            {
+                listSquare.Add(obj);
+            }
         }
     }
 

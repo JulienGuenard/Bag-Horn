@@ -13,6 +13,9 @@ public class LevelButton : MonoBehaviour
 
     public GameObject startButton;
 
+    [TextArea]
+    public string levelText;
+
     void Awake()
     {
         SpriteR = GetComponent<SpriteRenderer>();
@@ -29,19 +32,21 @@ public class LevelButton : MonoBehaviour
     private void OnMouseOver()
     {
         isHovered = true;
-        if (isSelected) return;
-        SpriteR.color = ColorManager.instance.squareMouseHover;
+        TooltipButton.instance.ShowTooltip(this.gameObject, levelText);
 
-        TooltipLevel.instance.ShowTooltip(this.gameObject);
+        if (isSelected) return;
+
+        SpriteR.color = ColorManager.instance.squareMouseHover;
     }
 
     private void OnMouseExit()
     {
         isHovered = false;
-        if (isSelected) return;
-        SpriteR.color = ColorManager.instance.squareMouseNeutral;
+        TooltipButton.instance.HideTooltip();
 
-        TooltipLevel.instance.HideTooltip();
+        if (isSelected) return;
+
+        SpriteR.color = ColorManager.instance.squareMouseNeutral;
     }
 
     void Select()

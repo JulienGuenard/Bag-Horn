@@ -14,7 +14,7 @@ public class SatisfactionManager : MonoBehaviour
     public BagInventory bagInventory;
 
     [System.Serializable]
-    new public class CharacterProfile
+    public class CharacterProfile
     {
         public Character character;
         public TextMeshPro characterSatisfaction;

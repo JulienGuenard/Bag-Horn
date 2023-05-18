@@ -763,6 +763,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startButton: {fileID: 147841176}
+  levelText: "<b>Oluf le bonhomme de neige</b><br>Rangez les affaires de Oluf le
+    bonhomme de neige, et de Nathan son fid\xE8le constructeur.\""
 --- !u!212 &368989102
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3641,10 +3643,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 5535681974019963125, guid: 9b575771607403e449cd9a38bf830727, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.6
-      objectReference: {fileID: 0}
     - target: {fileID: 5535681975398035145, guid: 9b575771607403e449cd9a38bf830727, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -3691,7 +3689,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5535681975398035147, guid: 9b575771607403e449cd9a38bf830727, type: 3}
       propertyPath: m_Name
-      value: TooltipLevel
+      value: TooltipButton
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9b575771607403e449cd9a38bf830727, type: 3}

@@ -8,7 +8,7 @@ public class ActiveAfterDelay : MonoBehaviour
 
     public float delay;
 
-    void Awake()
+    void Start()
     {
        foreach(GameObject gmb in gmbList)
         {
