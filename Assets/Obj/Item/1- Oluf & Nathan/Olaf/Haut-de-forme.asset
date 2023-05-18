@@ -15,5 +15,5 @@ MonoBehaviour:
   itemSprite: {fileID: 21300000, guid: bb19346d5b39ab447ad99440b93566ee, type: 3}
   itemName: Haut de forme
   itemOwner: 0
-  itemDescription: "<b>Haut de forme</b><br>Permet de couvrir n'importe quelle calvitie
-    avec \xE9l\xE9gance."
+  itemDescription: "<b>Haut de forme</b>\r\nPermet de couvrir n'importe quelle calvitie
+    avec \xE9l\xE9gance.\r\n<size=2.5><b>\r\n<color=#42EDFF>Indispensable (+++)</color>\r\n</size></b>"

@@ -10,8 +10,8 @@ public class ColorManager : MonoBehaviour
     public Color squareMouseNeutral;
     public Color squareMouseSelected;
 
-    public Color bagMouseHover;
-    public Color bagMouseNeutral;
+    public Color achievementUnfinished;
+    public Color achievementFinished;
 
     public Color dialogButtonSuiteNeutral;
     public Color dialogButtonSuiteHover;

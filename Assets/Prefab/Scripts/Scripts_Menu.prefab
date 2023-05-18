@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3317222649264611921}
   - component: {fileID: 3317222649264611920}
   - component: {fileID: 3317222649264612013}
+  - component: {fileID: 3317222650781778977}
   m_Layer: 0
   m_Name: Scripts_Menu
   m_TagString: Untagged
@@ -50,8 +51,10 @@ MonoBehaviour:
   squareMouseHover: {r: 1, g: 0.74827754, b: 0.27735847, a: 1}
   squareMouseNeutral: {r: 1, g: 1, b: 1, a: 1}
   squareMouseSelected: {r: 0.38828754, g: 1, b: 0.2396226, a: 1}
-  bagMouseHover: {r: 1, g: 1, b: 1, a: 0.30588236}
-  bagMouseNeutral: {r: 1, g: 1, b: 1, a: 1}
+  achievementUnfinished: {r: 0.7264151, g: 0.70859736, b: 0.70859736, a: 1}
+  achievementFinished: {r: 0.4168798, g: 1, b: 0.37169808, a: 1}
+  dialogButtonSuiteNeutral: {r: 0, g: 0, b: 0, a: 0}
+  dialogButtonSuiteHover: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &3317222649264611921
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -87,6 +90,8 @@ MonoBehaviour:
   character2:
     character: {fileID: 11400000, guid: 57660d1b6d41afa4aa8ce7b0e0a97b99, type: 2}
     characterSatisfaction: {fileID: 0}
+  character1_satisfaction: 0
+  character2_satisfaction: 0
 --- !u!114 &3317222649264612013
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -99,4 +104,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d49ecb6525b3d574b94a78e4287ef16f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogScene: 1- Dialog
+  dialogScene_Bad: 
+  dialogScene_Good: 
+  dialogScene_Super1: 
+  dialogScene_Super2: 
+  selectionLevelScene: 
+  validateBtn: {fileID: 0}
+  resetBtn: {fileID: 0}
+  returnToMenuBtn: {fileID: 0}
+--- !u!114 &3317222650781778977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8224098454466924092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d89168b45f951de4f94020b1c98bb245, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  achievementTextList:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}

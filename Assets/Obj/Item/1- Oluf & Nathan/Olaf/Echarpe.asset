@@ -15,5 +15,6 @@ MonoBehaviour:
   itemSprite: {fileID: 21300000, guid: b0384590a531fd24e8f90492f38914fb, type: 3}
   itemName: Echarpe
   itemOwner: 0
-  itemDescription: "<b>Echarpe</b><br>C'est comme un ruban adh\xE9sif qui lie la
-    t\xEAte au corps d'un bonhomme de neige."
+  itemDescription: "<b>Echarpe</b>\r\nC'est comme un ruban adh\xE9sif qui lie la
+    t\xEAte au corps d'un bonhomme de neige.\r\n<size=2.5><b>\r\n<color=#00ff00>Prot\xE8ge
+    froid (++)</color>\r\n<color=#D241F3>El\xE9gance (?)</color>\r\n</size></b>"

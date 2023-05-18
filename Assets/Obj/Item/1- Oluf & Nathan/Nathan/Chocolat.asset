@@ -15,6 +15,6 @@ MonoBehaviour:
   itemSprite: {fileID: 21300000, guid: f3d791b662db72d498c9745215d0d52d, type: 3}
   itemName: Barre de chocolat
   itemOwner: 1
-  itemDescription: "<b>Barre de chocolat</b><br>De l'\xE9nergie et de la bonne humeur
+  itemDescription: "<b>Barre de chocolat</b>\r\nDe l'\xE9nergie et de la bonne humeur
     fusionn\xE9s gr\xE2ce \xE0 l'ingr\xE9dient le plus magique au monde : le cacao
-    !"
+    !\r\n<size=2.5><b>\r\n<color=#00ff00>Bon encas (++)</color>\r\n</size></b>"

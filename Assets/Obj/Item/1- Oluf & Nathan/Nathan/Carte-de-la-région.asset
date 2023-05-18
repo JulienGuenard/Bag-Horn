@@ -15,5 +15,6 @@ MonoBehaviour:
   itemSprite: {fileID: 21300000, guid: 46558fecebc8bf040bae1a18f51c7ae5, type: 3}
   itemName: "Carte de la r\xE9gion"
   itemOwner: 1
-  itemDescription: "<b>Carte de la r\xE9gion</b><br>Si tu te perds, il vaut mieux
-    pr\xE9voir un deuxi\xE8me sac, ou bien juste une carte pour \xE9viter \xE7a !"
+  itemDescription: "<b>Carte de la r\xE9gion</b>\r\nSi tu te perds, il vaut mieux
+    pr\xE9voir un deuxi\xE8me sac, ou bien juste une carte pour \xE9viter \xE7a !\r\n<size=2.5><b>\r\n<color=#D241F3>On
+    est ici ! (?)</color>\r\n</size></b>"

@@ -15,5 +15,6 @@ MonoBehaviour:
   itemSprite: {fileID: 21300000, guid: 3121e5e139d319a4aab156058f5754ac, type: 3}
   itemName: Baton
   itemOwner: 0
-  itemDescription: "<b>Branches</b><br>Un bon aventurier est capable de transformer
-    un bout de bois en pi\xE8ge, en cabane, voire en chalet."
+  itemDescription: "<b>Branche</b>\r\nUn bon aventurier est capable de transformer
+    un bout de bois en pi\xE8ge, en cabane, voire en chalet.\r\n<size=2.5><b>\r\n<color=#00ff00>Bras
+    naturel (++)</color>\r\n</size></b>"

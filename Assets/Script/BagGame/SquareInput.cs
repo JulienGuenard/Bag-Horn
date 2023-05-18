@@ -6,6 +6,7 @@ using UnityEngine.TextCore.Text;
 public class SquareInput : MonoBehaviour
 {
     SpriteRenderer SpriteR;
+    Animator animator;
 
     [Header("States")]
     bool isHovered = false;
@@ -19,6 +20,7 @@ public class SquareInput : MonoBehaviour
     void Awake()
     {
         SpriteR = GetComponent<SpriteRenderer>();
+        animator = GetComponent<Animator>();
         item = transform.Find("Item").gameObject;
 
         NewItem();
@@ -45,7 +47,7 @@ public class SquareInput : MonoBehaviour
                 squareSelected.itemCarried = itm;
                 squareSelected.NewItem();
                 NewItem();
-                SFX.instance.Drop();
+                SFXManager.instance.Drop();
             }
             else
             {
@@ -82,13 +84,15 @@ public class SquareInput : MonoBehaviour
     {
         isSelected = false;
         SpriteR.color = ColorManager.instance.squareMouseNeutral;
+        animator.SetTrigger("Deselect");
     }
 
     public void Select()
     {
         isSelected = true;
         SpriteR.color = ColorManager.instance.squareMouseSelected;
-        SFX.instance.Click();
+        SFXManager.instance.Click();
+        animator.SetTrigger("Select");
     }
 
     public void NewItem()

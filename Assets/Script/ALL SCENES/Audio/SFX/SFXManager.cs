@@ -2,9 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SFX : MonoBehaviour
+public class SFXManager : MonoBehaviour
 {
-    public static SFX instance;
+    public static SFXManager instance;
 
     AudioSource audioS;
 

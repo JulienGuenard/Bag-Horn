@@ -15,5 +15,5 @@ MonoBehaviour:
   itemSprite: {fileID: 21300000, guid: 0849f70bc86f94249b8cec658c9a7be5, type: 3}
   itemName: Crepe
   itemOwner: 1
-  itemDescription: "<b>Cr\xEApe</b><br>Cuisin\xE9 \xE0 Rennes gr\xE2ce \xE0 des ingr\xE9dients
-    chocolat\xE9s et oeuf\xE9s."
+  itemDescription: "<b>Cr\xEApe</b>\r\nCuisin\xE9 \xE0 Rennes gr\xE2ce \xE0 des ingr\xE9dients
+    chocolat\xE9s et oeuf\xE9s.\r\n<size=2.5><b>\r\n<color=#42EDFF>Moelleuse (+++)</color>\r\n</size></b>"

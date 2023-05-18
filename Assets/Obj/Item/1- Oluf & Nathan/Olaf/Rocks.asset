@@ -15,5 +15,6 @@ MonoBehaviour:
   itemSprite: {fileID: 21300000, guid: 33d6dcc550b780242bb91c797b3d7647, type: 3}
   itemName: Galets
   itemOwner: 0
-  itemDescription: <b>Cailloux</b><br>Pour retrouver votre chemin, il vaut mieux
-    que vos galets soient noirs ici.
+  itemDescription: "<b>Cailloux</b>\r\nPour retrouver votre chemin, il vaut mieux
+    que vos galets soient noirs ici.\r\n<size=2.5><b>\r\n<color=#00ff00>D\xE9coratif
+    (++)</color>\r\n</size></b>"

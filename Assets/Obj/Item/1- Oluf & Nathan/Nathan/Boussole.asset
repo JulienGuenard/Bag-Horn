@@ -15,5 +15,6 @@ MonoBehaviour:
   itemSprite: {fileID: 21300000, guid: a445be3384ad356459b175e31274d28a, type: 3}
   itemName: Boussole
   itemOwner: 1
-  itemDescription: "<b>Boussole</b><br>Demandez lui de trouver une ville, une direction,
-    un tr\xE9sor, ce petit objet le saura."
+  itemDescription: "<b>Boussole</b>\r\nDemandez lui de trouver une ville, une direction,
+    un tr\xE9sor, ce petit objet le saura.\r\n<size=2.5><b>\r\n<color=#D241F3>Bon
+    rep\xE8re (?)</color>\r\n</size></b>"

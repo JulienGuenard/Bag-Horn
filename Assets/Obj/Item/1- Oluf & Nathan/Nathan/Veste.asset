@@ -15,5 +15,5 @@ MonoBehaviour:
   itemSprite: {fileID: 21300000, guid: c2a075403c238e348bfaceb3f3c8002e, type: 3}
   itemName: Veste
   itemOwner: 1
-  itemDescription: "<b>Veste</b><br>Un v\xEAtement sec sous la main est toujours
-    utile."
+  itemDescription: "<b>Veste</b>\r\nUn v\xEAtement sec sous la main est toujours
+    utile.\r\n<size=2.5><b>\r\n<color=#00ff00>Tiens chaud (++)</color>\r\n</size></b>"

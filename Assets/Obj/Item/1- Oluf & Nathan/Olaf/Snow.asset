@@ -15,4 +15,5 @@ MonoBehaviour:
   itemSprite: {fileID: 21300000, guid: 706374704e8cda34aa6d47ab5b98d434, type: 3}
   itemName: Neige
   itemOwner: 0
-  itemDescription: "<b>Neige</b><br>Un bon souvenr de vos vacances dans cette for\xEAt."
+  itemDescription: "<b>Neige</b>\r\nUn bon souvenr de vos vacances dans cette for\xEAt.\r\n<size=2.5><b>\r\n<color=#D241F3>Mat\xE9riau
+    mall\xE9able (?)</color>\r\n</size></b>"

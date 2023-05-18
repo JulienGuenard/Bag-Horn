@@ -6,6 +6,8 @@ using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
+    public static GameManager instance;
+
     public string dialogScene_Bad;
     public string dialogScene_Good;
     public string dialogScene_Super1;
@@ -16,6 +18,11 @@ public class GameManager : MonoBehaviour
     public Button resetBtn;
     public Button returnToMenuBtn;
 
+    void Awake()
+    {
+        if (instance == null) instance = this;
+    }
+
     public void Validate()
     {
         validateBtn.interactable = false;
@@ -24,12 +31,14 @@ public class GameManager : MonoBehaviour
 
         if (SatisfactionManager.instance.character1_satisfaction >= SatisfactionManager.instance.character1.character.superEndingCount)
         {
+            AchievementManager.instance.FinishEnding(2);
             FadeToScene.instance.GoTo_SceneEnding(dialogScene_Super1);
             return;
         }
 
         if (SatisfactionManager.instance.character2_satisfaction >= SatisfactionManager.instance.character2.character.superEndingCount)
         {
+            AchievementManager.instance.FinishEnding(1);
             FadeToScene.instance.GoTo_SceneEnding(dialogScene_Super2);
             return;
         }
@@ -37,6 +46,7 @@ public class GameManager : MonoBehaviour
         if (SatisfactionManager.instance.character1_satisfaction >= SatisfactionManager.instance.character1.character.goodEndingCount
             && SatisfactionManager.instance.character2_satisfaction >= SatisfactionManager.instance.character2.character.goodEndingCount)
         {
+            AchievementManager.instance.FinishEnding(0);
             FadeToScene.instance.GoTo_SceneEnding(dialogScene_Good);
             return;
         }

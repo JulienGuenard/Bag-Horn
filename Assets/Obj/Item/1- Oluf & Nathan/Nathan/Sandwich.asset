@@ -15,5 +15,6 @@ MonoBehaviour:
   itemSprite: {fileID: 21300000, guid: 134cdf51b7b0d9249bd9227431791b31, type: 3}
   itemName: Sandwich
   itemOwner: 1
-  itemDescription: "<b>Sandwich</b><br>Un excellent sandwich \xE0 l'emmental, carotte,
-    salade et jambon !\n"
+  itemDescription: "<b>Sandwich</b>\r\nUn excellent sandwich \xE0 l'emmental, carotte,
+    salade et jambon !\r\n<size=2.5><b>\r\n<color=#42EDFF>Tr\xE8s nutritif (+++)</color>\r\n<color=#D241F3>Contient
+    de la carotte (?)</color>\r\n</size></b>"

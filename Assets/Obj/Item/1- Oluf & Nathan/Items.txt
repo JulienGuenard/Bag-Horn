@@ -1,0 +1,86 @@
+<b>Carotte</b>
+Bonne à grignoter en toute circonstance, permet aux visages enneigés de respirer.
+<size=2.5><b>
+<color=#00ff00>Respiration (++)</color>
+<color=#ffff00>Peu nutritif (+)</color>
+</size></b>
+
+<b>Echarpe</b>
+C'est comme un ruban adhésif qui lie la tête au corps d'un bonhomme de neige.
+<size=2.5><b>
+<color=#00ff00>Protège froid (++)</color>
+<color=#D241F3>Elégance (?)</color>
+</size></b>
+
+<b>Haut de forme</b>
+Permet de couvrir n'importe quelle calvitie avec élégance.
+<size=2.5><b>
+<color=#42EDFF>Indispensable (+++)</color>
+</size></b>
+
+<b>Cailloux</b>
+Pour retrouver votre chemin, il vaut mieux que vos galets soient noirs ici.
+<size=2.5><b>
+<color=#00ff00>Décoratif (++)</color>
+</size></b>
+
+<b>Neige</b>
+Un bon souvenr de vos vacances dans cette forêt.
+<size=2.5><b>
+<color=#D241F3>Matériau malléable (?)</color>
+</size></b>
+
+<b>Branche</b>
+Un bon aventurier est capable de transformer un bout de bois en piège, en cabane, voire en chalet.
+<size=2.5><b>
+<color=#00ff00>Bras naturel (++)</color>
+</size></b>
+
+<b>Boussole</b>
+Demandez lui de trouver une ville, une direction, un trésor, ce petit objet le saura.
+<size=2.5><b>
+<color=#D241F3>Bon repère (?)</color>
+</size></b>
+
+<b>Carte de la région</b>
+Si tu te perds, il vaut mieux prévoir un deuxième sac, ou bien juste une carte pour éviter ça !
+<size=2.5><b>
+<color=#D241F3>On est ici ! (?)</color>
+</size></b>
+
+<b>Barre de chocolat</b>
+De l'énergie et de la bonne humeur fusionnés grâce à l'ingrédient le plus magique au monde : le cacao !
+<size=2.5><b>
+<color=#00ff00>Bon encas (++)</color>
+</size></b>
+
+<b>Crêpe</b>
+Cuisiné à Rennes grâce à des ingrédients chocolatés et oeufés.
+<size=2.5><b>
+<color=#42EDFF>Moelleuse (+++)</color>
+</size></b>
+
+<b>Poële</b>
+Une bonne poële qui permet de faire chauffer de très bons plats. Fournie avec un oeuf au plat fait maison.
+<size=2.5><b>
+<color=#D241F3>Pour cuisiner (?)</color>
+</size></b>
+
+<b>Sandwich</b>
+Un excellent sandwich à l'emmental, carotte, salade et jambon !
+<size=2.5><b>
+<color=#42EDFF>Très nutritif (+++)</color>
+<color=#D241F3>Contient de la carotte (?)</color>
+</size></b>
+
+<b>Papier toilette</b>
+On ne sait jamais, à cette période, il n'y a que des orties au bout des plantes.
+<size=2.5><b>
+<color=#00ff00>Cas d'extrême urgence (++)</color>
+</size></b>
+
+<b>Veste</b>
+Un vêtement sec sous la main est toujours utile.
+<size=2.5><b>
+<color=#00ff00>Tiens chaud (++)</color>
+</size></b>
