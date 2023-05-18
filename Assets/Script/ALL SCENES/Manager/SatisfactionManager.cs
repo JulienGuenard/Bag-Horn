@@ -58,13 +58,25 @@ public class SatisfactionManager : MonoBehaviour
 
         if (goodItemCount >= character.character.superEndingCount)
         {
+            if (character.characterSatisfaction.text == superText) return;
+
             character.characterSatisfaction.text = superText;
-        }else if (goodItemCount >= character.character.goodEndingCount)
+            character.characterSatisfaction.GetComponent<Animator>().SetTrigger("Change");
+
+        }
+        else if (goodItemCount >= character.character.goodEndingCount)
         {
+            if (character.characterSatisfaction.text == goodText) return;
+
             character.characterSatisfaction.text = goodText;
-        }else
+            character.characterSatisfaction.GetComponent<Animator>().SetTrigger("Change");
+        }
+        else
         {
+            if (character.characterSatisfaction.text == badText) return;
+
             character.characterSatisfaction.text = badText;
+            character.characterSatisfaction.GetComponent<Animator>().SetTrigger("Change");
         }
 
         if (character == character1)
